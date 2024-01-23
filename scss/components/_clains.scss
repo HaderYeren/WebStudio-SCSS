@@ -1,0 +1,24 @@
+.clains__link{
+    width: 170px;
+    height: 92px;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    fill: $primary-text-color;
+    transition: fill 250ms $time-function, border-color 250ms $time-function;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clains__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.clains{
+    padding-top: 94px;
+    padding-bottom: 94px
+}
+.clains__link:hover, .clains__link:focus{
+    fill: $background-button-color;
+    border-color: $background-button-color;
+}

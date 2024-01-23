@@ -1,0 +1,109 @@
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.header__wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Logotype*/
+.header__logo{
+    color: $logo-color;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+}
+.header__logo-blue{
+    color: $background-button-color;
+}
+
+.header__list{
+    color: $title-text-color;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    display: flex;
+
+    
+}
+.header__list-item:not(:last-child){
+    margin-right: 50px;
+}
+.header__list:hover{
+    color: $background-button-color;
+}
+
+.header__link-one{
+    font-family: 'Roboto';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+color: $background-button-color;
+}
+.header__link{
+    text-decoration: none;
+    color: $title-text-color;
+    font-family: 'Roboto';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.header__link:hover,
+.header__link:focus{
+    color: $background-button-color;
+    
+}
+.contacts-list{
+    display: flex;      
+}
+.contacts-list__item{
+    display: flex;
+}
+// .img-email{
+//     padding-right: 10px;
+// }
+.email{
+    color: $primary-text-color;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    
+}
+.telephone{
+    color: $primary-text-color;
+    font-family: 'Roboto';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+margin-left: 50px;
+}
+.contact-aicon{
+    fill: $primary-text-color;
+    margin-right: 10px;
+}
+.email:hover .contact-aicon{
+    fill: $background-button-color;
+}
+.contacts-list__item .email:hover{
+    color: $background-button-color;
+}
+.telephone:hover .contact-aicon{
+    fill: $background-button-color;
+}
+.contacts-list__item .telephone:hover{
+    color: $background-button-color;
+}

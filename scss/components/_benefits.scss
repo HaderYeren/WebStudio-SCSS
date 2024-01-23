@@ -1,0 +1,82 @@
+.benefits{
+    padding-top: 94px;
+
+}
+.benefits__list{
+    display: flex;
+    align-items: flex-start;
+}
+.benefits__block{
+    width: 270px;
+}
+.benefits__block:not(:last-child){
+    margin-right: 30px;
+}
+.benefits__letter-one::before{
+    content: '';
+    display: block;
+    background-color: $background-team-color;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-image: url();
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.benefits__letter-two::before{
+    content: '';
+    display: block;
+    background-color: $background-team-color;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-image: url();
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.benefits__letter-three::before{
+    content: '';
+    display: block;
+    background-color: $background-team-color;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-image: url();
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.benefits__letter-four::before{
+    content: '';
+    display: block;
+    background-color: $background-team-color;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-image: url();
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.benefits__name{
+    color: $title-text-color;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.benefits__text{
+   color: $primary-text-color;
+   font-family: 'Roboto';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}

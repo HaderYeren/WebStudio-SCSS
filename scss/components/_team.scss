@@ -1,0 +1,61 @@
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $background-team-color;
+}
+.team__list{
+    display: flex;
+
+}
+.team__card{
+    width: 270px;
+    border-radius: 0px 0px 4px 4px;
+background: #FFF;
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+}
+.team__card:not(:last-child){
+    margin-right: 30px;
+}
+.team__name{
+    color: $title-text-color;
+    text-align: center;
+font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+padding-top: 30px;
+}
+.team__position{
+    color: $primary-text-color;
+    text-align: center;
+font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+padding-top: 10px;
+padding-bottom: 30px;
+}
+.team__img-list{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 28px;
+}
+.team__img-list-item{
+    fill: $primary-text-color;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms $time-function, fill 250ms $time-function;
+}
+.team__img-list-item:hover, .team__img-list-item:focus{
+fill: $second-text-color;
+background-color: $background-button-color;
+}
