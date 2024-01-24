@@ -243,7 +243,7 @@ img {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.modal__close-button {
+.modal-close-button {
   margin-top: 8px;
   margin-left: 490px;
   width: 30px;
@@ -254,7 +254,7 @@ img {
           box-sizing: border-box;
   cursor: pointer;
   border-radius: 50%;
-  background-image: url(../images/symbol-defs.svg#icon-close);
+  background-image: url(./../../images/symbol-defs.svg#icon-close);
   background-repeat: no-repeat;
   background-position: center;
   display: -webkit-box;
@@ -266,27 +266,27 @@ img {
   fill: #2F303A;
 }
 
-.modal__icon {
+.modal-icon {
   fill: #212121;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.modal__icon:hover,
-.modal__icon:focus {
+.modal-icon:hover,
+.modal-icon:focus {
   color: #2196F3;
 }
 
 /*FORM MODAL WINDOW*/
-.modal__form {
+.modal-form {
   width: 528px;
   padding-right: 40px;
   padding-left: 40px;
   font-family: "Roboto", sans-serif;
 }
 
-.modal__form-title {
+.modal-form-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -296,7 +296,7 @@ img {
   margin-bottom: 12px;
 }
 
-.modal__form-label {
+.modal-form-label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,7 +308,7 @@ img {
   color: #757575;
 }
 
-.modal__form-field {
+.modal-form-field {
   position: relative;
   margin-bottom: 10px;
 }
@@ -325,7 +325,7 @@ img {
   cursor: pointer;
 }
 
-.modal__form-icon {
+.modal-form-icon {
   position: absolute;
   left: 12px;
   top: 28px;
@@ -394,7 +394,7 @@ img {
   fill: #2196F3;
 }
 
-.modal__form-policy {
+.modal-form-policy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -407,7 +407,7 @@ img {
   margin-bottom: 30px;
 }
 
-.modal__form-policy-text {
+.modal-form-policy-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -425,7 +425,7 @@ img {
   font-family: "Roboto", sans-serif;
 }
 
-.modal__form-policy-icon {
+.modal-form-policy-icon {
   content: "";
   width: 16px;
   height: 15px;
@@ -434,7 +434,7 @@ img {
   cursor: pointer;
 }
 
-.modal__form-policy-link {
+.modal-form-policy-link {
   font-style: 700;
   font-size: 14px;
   line-height: 1.71;
