@@ -1,270 +1,69 @@
-.header{
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-.header__wraper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-/*Logotype*/
-.header__logo{
-    color: $logo-color;
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-    text-decoration: none;
-}
-.header__logo-blue{
-    color: $background-button-color;
-}
-
-.header__list{
-    color: $title-text-color;
-    text-decoration: none;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    display: flex;
-
-    
-}
-.header__list-item:not(:last-child){
-    margin-right: 50px;
-}
-.header__list:hover{
-    color: $background-button-color;
-}
-
-.header__link-one{
-    font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-color: $background-button-color;
-}
-.header__link{
-    text-decoration: none;
-    color: $title-text-color;
-    font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-}
-.header__link:hover,
-.header__link:focus{
-    color: $background-button-color;
-    
-}
-.contacts-list{
-    display: flex;      
-}
-.contacts-list__item{
-    display: flex;
-}
-// .img-email{
-//     padding-right: 10px;
-// }
-.email{
-    color: $primary-text-color;
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    
-}
-.telephone{
-    color: $primary-text-color;
-    font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-margin-left: 50px;
-}
-.contact-aicon{
-    fill: $primary-text-color;
-    margin-right: 10px;
-}
-.email:hover .contact-aicon{
-    fill: $background-button-color;
-}
-.contacts-list__item .email:hover{
-    color: $background-button-color;
-}
-.telephone:hover .contact-aicon{
-    fill: $background-button-color;
-}
-.contacts-list__item .telephone:hover{
-    color: $background-button-color;
-}
-
-
-.footer{
-    background-color: $secondary-background-color;
+.portfolio{
     padding-top: 94px;
-    padding-bottom: 60px;
+    padding-bottom: 94px;
+}
+.button__list{
+    width: 575px;
     display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
-.footer__dates{
-    display: flex;
-    flex-direction: column;
-}
-.logo-white{
-    color: $second-text-color;
-}
-.address__div{
-    display: flex;
-    flex-direction: column;
-}
-.address__text{
-    color: $second-text-color;
+.button{
     font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
-margin-top: 20px;
-margin-bottom: 9px;
-
-}
-.footer__email{
-    color: rgba(255, 255, 255, 0.60);
-font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
-margin-bottom: 9px;
-
-}
-.footer__tel{
-    color: rgba(255, 255, 255, 0.60);
-font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
-}
-
-.footer__div{
-    margin-left: 70px;
-    display: flex;
-    flex-direction: column;
-}
-.footer__title{
-    color: $second-text-color;
-    font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-}
-.footer__list{
-    display: flex;
-    padding-top: 32px;
-}
-.footer__title{
-    color: $second-text-color;
-    font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-}
-.btn-subscribe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $background-button-color;
-    color: $second-text-color;
+    color: $title-text-color ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 163%;
+    letter-spacing: 0.48px;
+    padding: 6px 22px;
+    background-color: $background-team-color ;
     border: none;
     border-radius: 4px;
-    padding: 10px 28px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0.96px;
-    transition-property: background-color;
-    transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-     cursor: pointer;
-     font-family: 'Roboto', sans-serif;
-    }
-    .icon-telegram{
-  fill: $second-text-color;
-  margin-left: 10px;
-    }
-    .footer__input{
-        background: none;
-        line-height: 20px;
-        letter-spacing: 0.42px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-right: 95px;
-        padding-left: 16px;
-        border-radius: 4px;
-        border: 1px solid rgba(255, 255, 255, 0.30);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        margin-right: 12px;
-        transition-property: border;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        font-family: 'Roboto', sans-serif;
-      }
-      .label-footer-form{
-        display: flex;
-      }
-      .footer__form-title{
-        color: $second-text-color;
-        font-weight: 700;
-        letter-spacing: 0.42px;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-        font-family: 'Roboto', sans-serif;
-      }
-      .footer__form{
-        display: flex;
-        flex-direction: column;
-      }
-      .footer__item{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);
-        fill: $second-text-color;
-        transition: background-color 250ms $time-function, fill 250ms $time-function;
-        margin-right: 8px;
-      }
-      .footer__item:hover, .footer__item:focus{
-        background-color: $background-button-color;
-      }
-      .social-list-aicon{
-        width: 20px;
-        height: 20px;
-    }
-    .email, .telephone{
-        display: flex;
-        align-items: center;
-        }
-        
+    cursor: pointer;
+}
+.button:hover,
+.button:focus{
+    background-color: $background-button-color;
+    color: $second-text-color;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.block__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.block__text{
+    color: $primary-text-color;
+    font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.48px;
+padding-left: 24px;
+margin-bottom: 20px;
+}
+.block__title{
+    color: $title-text-color;
+    font-family: 'Roboto';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 1.08px;
+padding-bottom: 4px;
+padding-top: 20px;
+padding-left: 24px;
+}
+.block__item{
+    width: 370px;
+border: 1px solid $border-color;
+background-color: $second-text-color;
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+margin-bottom: 30px;
+}
+.block__img{
+    width: 100%;
+}
