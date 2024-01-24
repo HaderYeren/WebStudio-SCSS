@@ -495,7 +495,7 @@ img {
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
-  background-image: url(./../../images/antenna.png);
+  background-image: url(.//../../images/antenna.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -508,7 +508,7 @@ img {
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
-  background-image: url(./../../images/clock.png);
+  background-image: url(.//../../images/clock.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -521,7 +521,7 @@ img {
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
-  background-image: url(./../../images/diafragma.png);
+  background-image: url(.//../../images/diafragma.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -534,7 +534,7 @@ img {
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
-  background-image: url(./../../images/astronaut.png);
+  background-image: url(.//../../images/astronaut.png);
   background-repeat: no-repeat;
   background-position: center;
 }
