@@ -5,6 +5,10 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    @media screen and (min-widht: 1200px){
+padding-top: 200px;
+padding-bottom: 200px;
+    }
    }
    .post__title{
        color: $second-text-color;
@@ -36,13 +40,13 @@
        align-items: center;
        margin-top: 30px;
    }
-   @media screen and (min-widht: 1200px){
-    .post{
-padding-top: 200px;
-padding-bottom: 200px;
-    }
-    .post__title{
-        font-size: 44px;
-    }
-   }
+//    @media screen and (min-widht: 1200px){
+//     .post{
+// padding-top: 200px;
+// padding-bottom: 200px;
+//     }
+//     .post__title{
+//         font-size: 44px;
+//     }
+//    }
    
