@@ -1,7 +1,7 @@
 .post{
     background-image: url(./../images/bg.png); 
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,11 +10,11 @@
        color: $second-text-color;
        text-align: center;
    font-family: 'Roboto';
-   font-size: 44px;
+   font-size: 26px;
    font-style: normal;
    font-weight: 900;
-   line-height: 60px; 
-   letter-spacing: 2.64px;
+   line-height: 162%; 
+   letter-spacing: 0.06px;
    text-transform: uppercase;
    margin: 0 auto;
    }
@@ -35,5 +35,14 @@
        display: flex;
        align-items: center;
        margin-top: 30px;
+   }
+   @media screen and (min-widht:1200px){
+    .post{
+padding-top: 200px;
+padding-bottom: 200px;
+    }
+    .post__title{
+        font-size: 44px;
+    }
    }
    

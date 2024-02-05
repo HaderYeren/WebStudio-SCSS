@@ -3,8 +3,7 @@
 
 }
 .benefits__list{
-    display: flex;
-    align-items: flex-start;
+  @include flexsible();
 }
 .benefits__block{
     width: 270px;

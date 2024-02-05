@@ -250,84 +250,16 @@ cursor: pointer;
     color: var(--second-text-color);
 }
 /*Картинки*/
-.section{
-    padding-bottom: 94px;
-}
-.block-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
 
-}
-.block-item{
-    width: 370px;
-border: 1px solid var(--border-color);
-background-color: var(--second-text-color);
-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-margin-bottom: 30px;
-}
+
 
 .block-img{
     width: 100%;
 }
 /*Заголовки карток*/
-.block-title{
-    color: var(--button-color);
-    font-family: 'Roboto';
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 1.08px;
-padding-bottom: 4px;
-padding-top: 20px;
-padding-left: 24px;
-}
-/*Текст карток*/
-.block-text{
-    color: var(--block-text-color);
-    font-family: 'Roboto';
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.48px;
-padding-left: 24px;
-margin-bottom: 20px;
-}
-/*Footer*/
-.footer{
-    background-color: var(--secondary-background-color);
-    padding-top: 94px;
-    padding-bottom: 60px;
-}
-.footer-wrap{
-    display: flex;
-    justify-content: space-between;
-}
-.footer-dates{
-    display: flex;
-    flex-direction: column;
-}
-.logo-white{
-    color: var(--second-text-color);
-}
-.address-div{
-    display: flex;
-    flex-direction: column;
-}
-.address-text{
-    color: var(--second-text-color);
-    font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
-margin-top: 20px;
-margin-bottom: 9px;
 
-}
+/*Текст карток*/
+
 
 
 
