@@ -17,7 +17,6 @@
     background-image: url(.//../../images/antenna.png);
     background-repeat:no-repeat ;
     background-position: center;
-    width: 460px;
 }
 .benefits__letter-two::before{
     content: '';
@@ -86,24 +85,15 @@
             text-align: left;
         }
     }
-        
-    
-
-// .benefits{
-//     padding-top: 94px;
-
-// }
-// .benefits__list{
-//   @include flexsible();
-// }
-// .benefits__block{
-//     width: 270px;
-// }
-// .benefits__block:not(:last-child){
-//     margin-right: 30px;
-// }
-// 
-// }
-
-
-// 
+    @media screen and (min-width: 1200px){
+        .benefits__list{
+            flex-wrap: nowrap;
+        }
+        .benefits__block{
+            width: 270px;
+        }
+        .benefits{
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
+    }
