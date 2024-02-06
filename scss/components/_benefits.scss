@@ -1,33 +1,29 @@
 .benefits{
-    padding-top: 94px;
-
-}
-.benefits__list{
-  @include flexsible();
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 .benefits__block{
-    width: 270px;
-}
-.benefits__block:not(:last-child){
-    margin-right: 30px;
+    width: 460px;
+    margin-bottom: 30px;
 }
 .benefits__letter-one::before{
     content: '';
     display: block;
     background-color: $background-team-color;
-    width: 270px;
+    width: 100%;
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
     background-image: url(.//../../images/antenna.png);
     background-repeat:no-repeat ;
     background-position: center;
+    width: 460px;
 }
 .benefits__letter-two::before{
     content: '';
     display: block;
     background-color: $background-team-color;
-    width: 270px;
+    width: 100%;
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
@@ -39,7 +35,7 @@
     content: '';
     display: block;
     background-color: $background-team-color;
-    width: 270px;
+    width: 100%;
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
@@ -51,7 +47,7 @@
     content: '';
     display: block;
     background-color: $background-team-color;
-    width: 270px;
+    width: 100%;
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
@@ -63,19 +59,51 @@
     color: $title-text-color;
     font-family: 'Roboto';
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
     padding-bottom: 10px;
+    text-align: center;
 }
 .benefits__text{
-   color: $primary-text-color;
-   font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
-}
+       color: $primary-text-color;
+       font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    }
+    @media screen and (min-width: 768px){
+        .benefits__list{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .benefits__block{
+            width: 354px;
+        }
+        .benefits__name{
+            text-align: left;
+        }
+    }
+        
+    
+
+// .benefits{
+//     padding-top: 94px;
+
+// }
+// .benefits__list{
+//   @include flexsible();
+// }
+// .benefits__block{
+//     width: 270px;
+// }
+// .benefits__block:not(:last-child){
+//     margin-right: 30px;
+// }
+// 
+// }
+
+
+// 
