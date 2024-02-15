@@ -924,7 +924,6 @@ img {
 }
 
 .footer__div {
-  margin-left: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -932,6 +931,8 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .footer__title {
@@ -943,6 +944,7 @@ img {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .footer__list {
@@ -950,6 +952,9 @@ img {
   display: -ms-flexbox;
   display: flex;
   padding-top: 32px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer__title {
@@ -992,6 +997,7 @@ img {
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  margin-top: 20px;
 }
 
 .icon-telegram {
@@ -1025,6 +1031,16 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer__form-title {
@@ -1034,6 +1050,7 @@ img {
   text-transform: uppercase;
   margin-bottom: 20px;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .footer__form {
@@ -1108,6 +1125,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .footer__wrap {
@@ -1125,6 +1143,34 @@ img {
       align-content: center;
 }
 
+.address {
+  text-align: center;
+}
+
+.footer__logo {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__box-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__div {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .footer__form {
+    margin-top: 60px;
+  }
+  .footer__input {
+    width: 450px;
+  }
+}
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
