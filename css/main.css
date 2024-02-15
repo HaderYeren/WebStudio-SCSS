@@ -298,6 +298,8 @@ img {
   border-radius: 4px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-button {
@@ -1169,6 +1171,48 @@ img {
   }
   .footer__input {
     width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__wrap {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__div {
+    margin-left: 70px;
+  }
+  .footer__logo {
+    text-align: left;
+  }
+  .address {
+    text-align: left;
+  }
+  .footer__title {
+    text-align: left;
+  }
+  .footer__form {
+    margin-top: 0px;
+  }
+  .footer__form-title {
+    text-align: left;
+  }
+  .label-footer-form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .btn-subscribe {
+    margin-top: 0px;
+    margin-left: 8px;
+  }
+  .footer__input {
+    width: 358px;
   }
 }
 .portfolio {

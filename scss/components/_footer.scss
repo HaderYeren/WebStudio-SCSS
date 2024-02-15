@@ -205,6 +205,42 @@ margin-top: 60px;
       width: 450px;
     }
     }
+    @media screen and (min-width: 1200px) {
+      .footer__wrap{
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .footer__div{
+        margin-left: 70px;
+      }
+      .footer__logo{
+        text-align: left;
+      }
+        .address{
+          text-align: left;
+        }
+        .footer__title{
+          text-align: left;
+        }
+        .footer__form{
+          margin-top: 0px;
+        }
+        .footer__form-title{
+          text-align: left;
+        }
+        .label-footer-form{
+          flex-direction: row;
+        }
+        .btn-subscribe{
+          margin-top: 0px;
+          margin-left: 8px;
+        }
+        .footer__input{
+          width: 358px;
+        }
+    }
+      
+    
 
       
     
